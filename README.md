@@ -25,3 +25,32 @@ It performs **Retrieval-Augmented Generation (RAG)** on markdown documents in a 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
+### 2. Set up the virtual environment 
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set up .env file
+```bash
+GROQ_API=your_groq_api_key_here
+```
+### 5. Knowledge Base details
+```bash
+knowledge-base/
+├── products/
+├── employees/
+├── contracts/
+└── company/
+```
+### 6. Run the app
+```bash
+python insurelm.py
+```
