@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Plotly and Matplotlib temp files
+*.png
+*.pdf
+*.svg
+
+# Environment config
+.env.*
+*.env
+
+# LangChain / Chroma vector DB
+chroma/
