@@ -13,7 +13,6 @@ It performs **Retrieval-Augmented Generation (RAG)** on markdown documents in a 
 - ✅ Chunked document ingestion with metadata tagging  
 - ✅ Vector embeddings via `sentence-transformers`  
 - ✅ Persistent Chroma vector store  
-- ✅ TSNE embedding visualization (optional)  
 - ✅ Conversational memory support  
 
 ---
